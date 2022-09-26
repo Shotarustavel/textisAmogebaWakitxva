@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.kobinath.savarjisho.MainActivity3">
+
+    <Button
+        android:id="@+id/shesvlabtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_centerVertical="false"
+        android:layout_marginTop="200dp"
+        android:onClick="click"
+        android:text="შესვლა"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <Button
+        android:id="@+id/axaligilakibtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_centerVertical="false"
+        android:layout_marginTop="300dp"
+        android:onClick="click"
+        android:text="axali gilaki"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <EditText
+        android:id="@+id/usernamefield"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:hint="username"
+
+        android:layout_marginTop="50dp"
+        />
+
+    <Button
+        android:id="@+id/registraciabtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+
+        android:onClick="click"
+        android:text="რეგისტრაცია" />
+
+    <Button
+        android:id="@+id/mesamegilaki"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="mesame gilaki" />
+
+
+    <EditText
+
+
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:text="TextView" />
+
+        </RelativeLayout>
