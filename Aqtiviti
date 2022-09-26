@@ -1,0 +1,40 @@
+package com.example.kobinath.savarjisho;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
+
+public class MainActivity3 extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main3);
+    }
+
+    public void click(View gilaki) {
+
+        if (gilaki.getId() == R.id.axaligilakibtn){
+            Toast.makeText(this, "daekhjkhjkhjh", Toast.LENGTH_SHORT).show();
+        }else if (gilaki.getId() == R.id.shesvlabtn) {
+// ტექსტის ამოღება  ამოღება
+            EditText usernameField = (EditText) findViewById(R.id.usernamefield) ;
+            String usernameText = String.valueOf( usernameField.getText ());
+// ღილაკის ამოღება
+            Button mesameGilaki = (Button) findViewById(R.id.mesamegilaki);
+            mesameGilaki.setText(usernameText);
+
+
+
+            Toast.makeText(this, "daekhjkhjkhjh", Toast.LENGTH_SHORT).show();
+        } else if (gilaki.getId() == R.id.registraciabtn){
+            Toast.makeText(this, "daekhjkhjkhjh", Toast.LENGTH_SHORT).show();
+        }
+
+
+    }
+}
